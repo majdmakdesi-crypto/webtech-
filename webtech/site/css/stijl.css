@@ -1,0 +1,22 @@
+:root {
+    --achtergrond: #f5f5f5;
+    --tekst: #222222;
+    --accent: #336699;
+    --lettertype: Arial, sans-serif;
+    --basismaat: 1rem;
+}
+body {
+    background-color: var(--achtergrond);
+    color: var(--tekst);
+    font-family: var(--lettertype);
+    font-size: var(--basismaat);
+}
+nav a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}

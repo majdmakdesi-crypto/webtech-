@@ -38,8 +38,8 @@ Bij welke vraag zat je fout, en wat was de reden? (Alles juist? Welke vraag duur
 
 ## 6. Je site
 
-- Welke drie waarden staan in je tokenblok, en waarom die?
-- Wat verandert er in je site als je één token wijzigt?
+- Welke drie waarden staan in je tokenblok, en waarom die? Ik gebruikte tokens voor de achtergrondkleur, tekstkleur, accentkleur, het lettertype en de basismaat
+- Wat verandert er in je site als je één token wijzigt?Als ik een token verander veranderen alle plaatsen die dat token gebruiken automatisch mee.
 
 ## Thuis: R2.3 (met AI)
 
