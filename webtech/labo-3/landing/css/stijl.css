@@ -1,0 +1,71 @@
+/* stijl.css - labo 3, landing (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+    --kleur-banner: #c8b8ff;
+    --kleur-link: #5551ff;
+    --kleur-hero: #779cee;
+    --kleur-tekst: black;
+    --kleur-knop: black;
+    --kleur-knop-tekst: white;
+}
+
+/* === your rules === */
+body{
+    margin:0;
+}
+
+.banner{
+    background-color: var(--kleur-banner);
+    padding: 1rem;
+
+    text-align: center;
+}
+.banner a {
+    color: var(--kleur-link);
+}
+nav {
+    text-align: right;
+}
+nav li{
+    display: inline-block;
+    margin-left: 1rem;
+}
+main {
+    background-color: var(--kleur-hero);
+    min-height: 70vh;
+    padding: 3rem;
+    display: flex;
+}
+main h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.knop {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+main article {
+    display: block;
+}
+main img {
+    width: 50%;
+    height: auto;
+    margin-left: 10rem;
+}
+main article p {
+    margin-bottom: 3rem;
+}
+
+main article h1 {
+    margin-bottom: 3rem;
+}
+
+
+
+
